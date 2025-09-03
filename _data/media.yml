@@ -1,0 +1,36 @@
+- photo1:
+  img: banners/0000.jpg
+  description: Naval/Nuke Facility
+  location: Keelhaul
+- photo2:
+  img: banners/0001.jpg
+  description: Assault on Storm Cannon
+  location: Surge Gate
+- photo3:
+  img: banners/0002.jpg
+  description: Anti-Invasion Defenses
+  location: Cado Beach
+- photo4:
+  img: banners/0003.jpg
+  description: Gunboat Raiding Caoivan Isles
+  location: Oarbreaker Isles
+- photo5:
+  img: banners/0004.jpg
+  description: Approaching the Trainyard
+  location: Vinum Rillet
+- photo6:
+  img: banners/0005.jpg
+  description: Search and Destroy Patrol
+  location: Nevish Line
+- photo7:
+  img: banners/0006.jpg
+  description: Falchion Festival
+  location: The Blemish
+- photo8:
+  img: banners/0007.jpg
+  description: Nuclear Parade
+  location: Baccae Ridge
+- photo9:
+  img: banners/0008.jpg
+  description: Rocket Barrage
+  location: The Cord

@@ -1,0 +1,34 @@
+remote_theme: "smrfeld/jekyll-theme-youya"
+plugins:
+- jekyll-remote-theme
+
+author: yurisuika
+url: https://horde.cx
+favicon: favicon.png
+
+background_img_folder: banners
+no_background_images: 9
+
+logo_black: logo_black.png
+logo_white: logo_white.png
+
+menu:
+  - title: Home
+    local_url: index.html
+  - title: About
+    local_url: about.html
+  - title: Join
+    local_url: join.html
+  - title: Posts
+    local_url: posts.html
+  - title: Media
+    local_url: media.html
+
+about: "You've come to the home of the finest Colonial regiment, the HORDE! No other regiment offers the same prowess over the Caoivan menace. When you're part of the HORDE, you're feared by foe and respected by friend to the utmost extremes."
+about_img: profile.png
+
+discord_url: https://discord.horde.cx
+teamspeak_url: ts3server://ts.horde.cx
+steam_url: https://store.steampowered.com/app/505460/Foxhole/
+
+highlighter: rouge

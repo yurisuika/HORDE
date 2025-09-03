@@ -1,0 +1,15 @@
+---
+layout: regular
+banner_size: small
+title: Posts
+toc:
+  - title: News
+    tag: collapsible
+  - title: Events
+    tag: collapsible
+---
+
+{% assign srcs = "entries" | split: ", " %}
+
+{% include entries_collapsible.html title="News" tag="collapsible" data_src="news" %}
+{% include entries_collapsible.html title="Events" tag="collapsible" data_src="events" %}

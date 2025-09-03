@@ -1,0 +1,90 @@
+<!doctype html>
+<html>
+<head>
+	{% include header_content.html title=page.title %}
+</head>
+<style type="text/css">
+    input[type="text"], input[type="password"], input[type="email"], input[type="tel"], select, textarea {
+        -moz-appearance: none;
+        -webkit-appearance: none;
+        -ms-appearance: none;
+        appearance: none;
+        background: rgba(0, 0, 0, 0.035);
+        border: none;
+        border-radius: 0;
+        color: inherit;
+        display: block;
+        outline: 0;
+        padding: 0;
+        text-decoration: none;
+        width: 100%;
+    }
+
+    input[type="submit"] {
+        -moz-appearance: none;
+        -webkit-appearance: none;
+        -ms-appearance: none;
+        appearance: none;
+        background-color: #0d0d0d;
+        border: 0;
+        border-radius: 0;
+        color: #fff;
+        cursor: pointer;
+        display: inline-block;
+        padding: 0.5rem 1rem;
+        text-align: center;
+        text-decoration: none;
+        text-transform: uppercase;
+        white-space: nowrap;
+    }
+
+    input[type="submit"]:hover {
+        background-color: #459cff;
+    }
+
+    .submit {
+        margin-top: 1rem;
+    }
+</style>
+<body>
+
+<!-- Preloader -->
+<div id="page-loading-blocs-notifaction" class="page-preloader"></div>
+<!-- Preloader END -->
+
+<!-- Main container -->
+<div class="page-container">
+
+<!-- Banner -->
+{% if page.banner_size == "small" %}
+
+{% include banner_small.html %}
+
+{% elsif page.banner_size == "medium" %}
+
+{% include banner_medium.html %}
+{% include logo.html %}
+
+{% endif %}
+
+<!-- Menu bar -->
+{% include menu_bar.html %}
+
+<!-- Site menu bar -->
+{% if page.toc %}
+{% include site_menu_bar.html menu=page.toc %}
+{% endif %}
+
+<!-- Content -->
+{{ content }}
+
+<!-- Scroll and footer -->
+{% include scroll_button_and_footer.html %}
+
+</div>
+<!-- Main container END -->
+    
+{% include js_footer.html is_home=false %}
+
+</body>
+</html>
